@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+}
+.link{
+    font-size: 25px ;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    transition: font-size 1s;
+}
+.link:hover{
+    font-size: 35px;
+}
+#home{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imgs
+{
+    position: relative;
+
+}
+#pro
+{
+    height: 300px;
+    position: absolute;
+    left: 700px;
+    top: 200px;
+}
+#bg
+{
+    height: 100%;
+    width: 100%;
+}
+.intro_head
+{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.intro_text
+{
+    margin-bottom: 5px;
+    text-align: justify;
+}
+.down_link
+{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+#abt_container
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    column-gap: 20px;
+}
+#abt_img img
+{
+    width: 600px;
+}
+#about_head
+{
+    text-align: center;
+    font-size: 45px;
+}
+#abt_para
+{
+    text-align: justify;
+}
